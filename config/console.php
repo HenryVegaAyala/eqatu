@@ -61,11 +61,11 @@ $config = [
     'params' => $params,
 
     'controllerMap' => [
+        'fixture' => [ // Fixture generation command line.
+            'class' => 'yii\faker\FixtureController',
+        ],
         'clean-vendors' => [
             'class' => 'mbrowniebytes\yii2cleanvendors\CleanVendorsController',
-        ],
-        'fixture' => [
-            'class' => 'yii\faker\FixtureController',
         ],
     ],
 
