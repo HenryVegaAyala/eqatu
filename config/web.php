@@ -48,7 +48,6 @@ $config = [
                     ],
             ],
         'request' => [
-            'baseUrl' => str_replace('/web', '', (new \yii\web\Request)->getBaseUrl()),
             'cookieValidationKey' => '6Rmtk02DQKMdolYb_ZZt7XXzrYXrOXXk',
         ],
         'cache' => [
