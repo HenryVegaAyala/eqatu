@@ -14,17 +14,18 @@
     },
     "minimum-stability": "stable",
     "require": {
-        "php": ">=5.4.0",
+        "php": ">=7.0.0",
         "yiisoft/yii2": "~2.0.5",
         "yiisoft/yii2-bootstrap": "~2.0.0",
         "yiisoft/yii2-swiftmailer": "~2.0.0",
         "npm-asset/bootstrap-material-design": "<4.0",
-        "marcelodeandrade/yii2-bootstrap-material-design": "dev-master"
+        "mbrowniebytes/yii2-clean-vendors": "dev-master",
+        "marcelodeandrade/yii2-bootstrap-material-design": "dev-master",
+        "skeeks/yii2-assets-auto-compress": "*"
     },
     "require-dev": {
         "yiisoft/yii2-debug": "~2.0.0",
         "yiisoft/yii2-gii": "~2.0.0",
-        "yiisoft/yii2-faker": "~2.0.0",
 
         "codeception/base": "^2.2.3",
         "codeception/verify": "~0.3.1",
@@ -42,6 +43,9 @@
     "scripts": {
         "post-create-project-cmd": [
             "yii\\composer\\Installer::postCreateProject"
+        ],
+        "post-update-cmd": [
+            "php yii clean-vendors"
         ]
     },
     "extra": {

@@ -1,4 +1,4 @@
-<?php
+﻿<?php
 
 $params = require(__DIR__ . '/params.php');
 $db = require(__DIR__ . '/db.php');
@@ -6,8 +6,47 @@ $db = require(__DIR__ . '/db.php');
 $config = [
     'id' => 'basic',
     'basePath' => dirname(__DIR__),
-    'bootstrap' => ['log'],
+    'bootstrap' => ['log', 'assetsAutoCompress'],
+    'sourceLanguage' => 'es',
+    'language' => 'es',
+    'timeZone' => 'America/Lima',
     'components' => [
+        'assetManager' => [
+            'linkAssets' => true,
+            'appendTimestamp' => true,
+            'converter' => [
+                'class' => 'yii\web\AssetConverter',
+                'commands' => [
+                    'less' => ['css', 'lessc {from} {to} --no-color'],
+                    'ts' => ['js', 'tsc --out {to} {from}'],
+                ],
+            ],
+        ],
+        'assetsAutoCompress' =>
+            [
+                'class' => '\skeeks\yii2\assetsAuto\AssetsAutoCompressComponent',
+                'enabled' => true,
+                'readFileTimeout' => 3,
+                'jsCompress' => true,
+                'jsCompressFlaggedComments' => true,
+                'cssCompress' => true,
+                'cssFileCompile' => true,
+                'cssFileRemouteCompile' => false,
+                'cssFileCompress' => true,
+                'cssFileBottom' => false,
+                'cssFileBottomLoadOnJs' => false,
+                'jsFileCompile' => true,
+                'jsFileRemouteCompile' => false,
+                'jsFileCompress' => true,
+                'jsFileCompressFlaggedComments' => true,
+                'htmlCompress' => true,
+                'noIncludeJsFilesOnPjax' => true,
+                'htmlCompressOptions' =>
+                    [
+                        'extra' => false,
+                        'no-comments' => true,
+                    ],
+            ],
         'request' => [
             // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => '6Rmtk02DQKMdolYb_ZZt7XXzrYXrOXXk',
@@ -24,9 +63,6 @@ $config = [
         ],
         'mailer' => [
             'class' => 'yii\swiftmailer\Mailer',
-            // send all mails to a file by default. You have to set
-            // 'useFileTransport' to false and configure a transport
-            // for the mailer to send real emails.
             'useFileTransport' => true,
         ],
         'log' => [
@@ -52,12 +88,9 @@ $config = [
 ];
 
 if (YII_ENV_DEV) {
-    // configuration adjustments for 'dev' environment
     $config['bootstrap'][] = 'debug';
     $config['modules']['debug'] = [
         'class' => 'yii\debug\Module',
-        // uncomment the following to add your IP if you are not connecting from localhost.
-        //'allowedIPs' => ['127.0.0.1', '::1'],
     ];
 
     $config['bootstrap'][] = 'gii';
