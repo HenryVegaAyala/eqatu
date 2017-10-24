@@ -7,12 +7,10 @@ use yii\helpers\Url;
         <a href="<?php Url::to('/') ?>" class="brand-logo center"><i class="size-title">EQATU</i></a>
         <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
-            <li><a href="<?= Url::to('/') ?>">Inicio</a></li>
-            <li><a href="badges.html">Regístrarse</a></li>
+            <li><a href="#about">Regístrarse</a></li>
         </ul>
         <ul class="side-nav" id="mobile-demo">
-            <li><a href="<?= Url::to('/') ?>">Inicio</a></li>
-            <li><a href="badges.html">Regístrarse</a></li>
+            <li><a href="#about">Regístrarse</a></li>
         </ul>
     </nav>
 </div>

@@ -61,3 +61,15 @@ main {
     overflow: visible;
     background: #fff url("../img/preloader.svg") no-repeat center center;
 }
+
+.back-to-top {
+    position: fixed;
+    background: rgba(0, 0, 0, 0.2);
+    color: #fff;
+    padding: 6px 12px 9px 12px;
+    font-size: 20px;
+    border-radius: 0px;
+    right: 15px;
+    bottom: 4px;
+    transition: background 0.5s;
+}

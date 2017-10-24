@@ -23,3 +23,5 @@
         </div>
     </div>
 </footer>
+
+<a href="#" class="back-to-top"><i class="material-icons">keyboard_arrow_up</i></a>
