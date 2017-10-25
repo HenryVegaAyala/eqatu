@@ -9,7 +9,7 @@ main {
 }
 
 .nav-color {
-    background-color: #319F52;
+    background-color: #FEBB48;
 }
 
 .size-title{
@@ -26,7 +26,7 @@ main {
 .parallax-container {
     position: relative;
     overflow: hidden;
-    height: 550px;
+    height: 640px;
 }
 
 .parallax-container .parallax {

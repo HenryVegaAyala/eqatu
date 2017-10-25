@@ -22,8 +22,9 @@ class AppAsset extends AssetBundle
         'css/materialize.css',
     ];
     public $js = [
-        'js/materialize.js',
         'js/custom.js',
+        'js/materialize.js',
+        'js/morphext.js',
     ];
     public $depends = [
         'yii\web\YiiAsset',
