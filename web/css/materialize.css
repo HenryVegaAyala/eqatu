@@ -2124,7 +2124,7 @@
 }
 
 .white {
-  background-color: #FFFFFF !important;
+  background-color: #F8F8F8 !important;
 }
 
 .white-text {
@@ -3362,7 +3362,7 @@ nav ul a span.badge {
 
 .section {
   padding-top: 1rem;
-  padding-bottom: 20rem;
+  padding-bottom: 1rem;
 }
 
 .section.no-pad {

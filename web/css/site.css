@@ -12,15 +12,30 @@ main {
     background-color: #FEBB48;
 }
 
-.size-title{
+.size-title {
     font-size: 50px;
     font-family: "Roboto", sans-serif;
 }
 
 .footer-color {
     padding-top: 20px;
-    color: #fff;
-    background-color: #319F52;
+    color: #3B67A8;
+    background-color: #FFBC49;
+}
+
+.resaltar {
+    color: #13386D;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.space{
+    margin-right: 10px;
+    font-size: 2em;
+}
+
+.title-eqatu{
+    background-color: #FFBC49;
 }
 
 .parallax-container {
@@ -64,8 +79,8 @@ main {
 
 .back-to-top {
     position: fixed;
-    background: rgba(0, 0, 0, 0.2);
-    color: #fff;
+    background: rgba(0, 0, 0, 0.24);
+    color: #3B67A8;
     padding: 6px 12px 9px 12px;
     font-size: 20px;
     border-radius: 0px;
