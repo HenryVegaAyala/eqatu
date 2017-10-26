@@ -36,10 +36,10 @@ $this->title = 'Eqatu | Inicio ';
     <div class="parallax"><img src="http://materializecss.com/images/parallax2.jpg"></div>
 </div>
 
-<section id="about">
+<section id="contact">
     <div class="section white">
         <div class="row container">
-            <h2 class="header">Parallax</h2>
+            <h2 class="header center">Contáctenos</h2>
             <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image in
                 this
                 case, is moved at a different speed than the foreground content while scrolling.</p>
