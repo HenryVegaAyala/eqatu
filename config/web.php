@@ -12,7 +12,6 @@ $config = [
     'timeZone' => 'America/Lima',
     'components' => [
         'request' => [
-            // !!! insert a secret key in the following (if it is empty) - this is required by cookie validation
             'cookieValidationKey' => 'lKBryJrta8jEIGxyvtc5PnEXmxmrNHXU',
         ],
         'assetManager' => [
@@ -25,6 +24,15 @@ $config = [
                 ],
                 'yii\bootstrap\BootstrapAsset' => [
                     'css' => [],
+                ],
+            ],
+            'linkAssets' => true,
+            'appendTimestamp' => true,
+            'converter' => [
+                'class' => 'yii\web\AssetConverter',
+                'commands' => [
+                    'less' => ['css', 'lessc {from} {to} --no-color'],
+                    'ts' => ['js', 'tsc --out {to} {from}'],
                 ],
             ],
         ],
