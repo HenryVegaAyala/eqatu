@@ -43,6 +43,13 @@ main {
     color: #ffffff !important;
 }
 
+.footer-color-C {
+    background-color: #87ABD3 !important;
+    color: #ffffff !important;
+    margin-bottom: .5rem !important;
+    margin-top: .5rem !important;
+}
+
 .mr-4 {
     margin-right: 1.5rem !important;
     margin-bottom: .5rem !important;
