@@ -1,6 +1,6 @@
 <footer class=" footer-color-B">
     <div class="row">
-        <div class="col s12 m6 center">
+        <div class="col s12 m6 center text-size">
             ¡Contáctenos con nosotros en las redes sociales!
         </div>
         <div class="col s12 m6 center">
