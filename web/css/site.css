@@ -164,4 +164,9 @@ main {
         font-weight: bold;
         text-transform: uppercase;
     }
+
+    .header-2 {
+        font-size: 19px;
+        margin-bottom: 40px;
+    }
 }

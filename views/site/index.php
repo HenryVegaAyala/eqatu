@@ -60,15 +60,19 @@ $this->title = 'Eqatu | Inicio ';
 <section class="section footer-color-C center">
     <div class="row">
         <div class="center header-2">Suscríbete para recibir información sobre promociones y descuentos.</div>
-        <div class="col s4"></div>
-        <div class="col s4 less-space">
-            <div class="input-field">
-                <i class="material-icons prefix" >email</i>
-                <input id="icon_telephone" type="email" class="validate" placeholder="Ingrese su email aquí.">
-                <label for="email" data-error="Email no válido."></label>
+        <div class="col s4 m2 l4"></div>
+        <form>
+            <div class="col s12 m8 l4 less-space">
+                <div class="input-field">
+                    <i class="material-icons prefix">email</i>
+                    <input id="icon_telephone" type="email" class="validate" placeholder="Ingresa tu email aquí.">
+                    <label for="email" data-error="Email no válido."></label>
+                    <button class="btn waves-effect" type="submit" name="action">Suscribirse
+                    </button>
+                </div>
             </div>
-        </div>
-        <div class="col s4"></div>
+        </form>
+        <div class="col s4 m2 l4"></div>
     </div>
 </section>
 
@@ -76,10 +80,30 @@ $this->title = 'Eqatu | Inicio ';
     <div class="section white">
         <div class="row container">
             <h2 class="center header-1">Contáctenos</h2>
-            <p class="grey-text text-darken-3 lighten-3">Parallax is an effect where the background content or image
-                in
-                this
-                case, is moved at a different speed than the foreground content while scrolling.</p>
+            <div class="row center">
+                <form class="col s12">
+                    <div class="row">
+                        <div class="input-field col s12 m6 l6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Nombres</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Apellidos</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <input id="last_name" type="email" class="validate">
+                            <label for="last_name" data-error="Email no válido.">Email</label>
+                        </div>
+                        <div class="input-field col s12 m6 l6">
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Número de Celular</label>
+                        </div>
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit" name="action">Registrarse
+                    </button>
+                </form>
+            </div>
         </div>
     </div>
 </section>
