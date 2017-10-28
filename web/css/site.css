@@ -23,9 +23,22 @@ main {
     text-transform: uppercase;
 }
 
-.space {
-    margin-right: 60px;
-    font-size: 2em;
+.header-1 {
+    font-size: 29px;
+    margin-bottom: 3px;
+    margin-top: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.header-2 {
+    font-size: 20px;
+    margin-bottom: 40px;
+}
+
+.header-3 {
+    font-size: 20px;
+    margin-bottom: 40px;
 }
 
 .title-eqatu {
@@ -44,7 +57,7 @@ main {
 }
 
 .footer-color-C {
-    background-color: #87ABD3 !important;
+    background-color: #3F5C7D !important;
     color: #ffffff !important;
     margin-bottom: .5rem !important;
     margin-top: .5rem !important;
@@ -111,4 +124,44 @@ main {
     right: 15px;
     bottom: 4px;
     transition: background 0.5s;
+}
+
+.icon-style {
+    color: #3B67A8;
+    margin-bottom: 20px;
+    margin-top: 10px;
+}
+
+.text-pasos {
+    text-align: justify;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.numer-bold {
+    font-weight: bold;
+    color: #000000;
+}
+
+.check-bold {
+    font-weight: bold;
+    color: #03A4E9;
+}
+
+.less-space {
+    margin-bottom: -25px;
+    margin-top: -40px;
+}
+
+/*Media Query*/
+/********************************************/
+
+@media screen and (max-width: 480px) and (min-width: 320px) {
+    .header-1 {
+        font-size: 25px;
+        margin-bottom: 3px;
+        margin-top: 10px;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
 }

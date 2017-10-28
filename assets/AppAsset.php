@@ -21,6 +21,7 @@ class AppAsset extends AssetBundle
         'css/site.css',
         'css/materialize.css',
         'css/font-awesome.css',
+        'https://fonts.googleapis.com/icon?family=Material+Icons',
     ];
     public $js = [
         'js/custom.js',

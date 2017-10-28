@@ -16,6 +16,9 @@
             <a class="fa fa-google-plus fa-lg white-text tooltipped mr-4" aria-hidden="true" target="_blank"
                data-position="top" data-delay="50" data-tooltip="Google+ Eqatu"
                href="https://plus.google.com">
+                <a class="fa fa-whatsapp fa-lg white-text tooltipped mr-4" aria-hidden="true" target="_blank"
+                   data-position="top" data-delay="50" data-tooltip="Whatsapp Eqatu"
+                   href="https://web.whatsapp.com/%F0%9F%8C%90/es">
             </a>
         </div>
     </div>
