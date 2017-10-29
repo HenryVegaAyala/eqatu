@@ -15,17 +15,18 @@ $config = [
             'cookieValidationKey' => 'lKBryJrta8jEIGxyvtc5PnEXmxmrNHXU',
         ],
         'assetManager' => [
-            'bundles' => [
-                //'yii\web\JqueryAsset' => [
-                //    'js'=>[]
-                //],
-                'yii\bootstrap\BootstrapPluginAsset' => [
-                    'js' => [],
-                ],
-                'yii\bootstrap\BootstrapAsset' => [
-                    'css' => [],
-                ],
-            ],
+            'bundles' => false,
+            //'bundles' => [
+            //    //'yii\web\JqueryAsset' => [
+            //    //    'js'=>[]
+            //    //],
+            //    'yii\bootstrap\BootstrapPluginAsset' => [
+            //        'js' => [],
+            //    ],
+            //    'yii\bootstrap\BootstrapAsset' => [
+            //        'css' => [],
+            //    ],
+            //],
             'linkAssets' => true,
             'appendTimestamp' => true,
             'converter' => [
