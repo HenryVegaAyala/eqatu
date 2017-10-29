@@ -29,7 +29,7 @@ AppAsset::register($this);
 <?= $this->render('footer') ?>
 
 <?php $this->endBody() ?>
-<?= Html::jsFile('@web/js/eqatu.js?v=' . filemtime(Yii::getAlias('@webroot/js/eqatu.js'))) ?>
+<?= Html::jsFile('@web/js/all.js?v=' . filemtime(Yii::getAlias('@webroot/js/all.js'))) ?>
 </body>
 </html>
 <?php $this->endPage() ?>

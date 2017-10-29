@@ -3,5 +3,8 @@
   "vendor/bower/bootstrap/dist/js/bootstrap.js",
   "vendor/yiisoft/yii2/assets/yii.js",
   "vendor/yiisoft/yii2/assets/yii.validation.js",
-  "vendor/yiisoft/yii2/assets/yii.activeForm.js"
+  "vendor/yiisoft/yii2/assets/yii.activeForm.js",
+  "web/js/custom.js",
+  "web/js/materialize.js",
+  "web/js/morphext.js"
 ]

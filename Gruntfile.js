@@ -4,7 +4,8 @@ module.exports = function (grunt) {
         uglify: {
             options: {
                 compress: true,
-                separator: ';'
+                separator: ';',
+                mangle: false
             },
             dist: {
                 src: ['web/js/*.js'],
@@ -21,6 +22,36 @@ module.exports = function (grunt) {
                 dest: 'web/css/eqatu.css'
             }
         },
+        concat_sourcemap: {
+            options: {
+                sourcesContent: true
+            },
+            all: {
+                files: {
+                    "web/js/all.js": grunt.file.readJSON("assets/js/all.json")
+                }
+            }
+        },
+        cssmin: {
+            target: {
+                files: [{
+                    expand: true,
+                    cwd: 'web/css/',
+                    src: ['*.css', '!*.min.css'],
+                    dest: 'web/css/',
+                    ext: '.min.css'
+                }]
+            }
+        },
+        watch: {
+            js: {
+                files: ["assets/js/**/*.js", "assets/js/all.json"],
+                tasks: ["concat_sourcemap", "uglify:lib"],
+                options: {
+                    livereload: true
+                }
+            },
+        }
     }),
 
         grunt.loadNpmTasks('grunt-contrib-uglify'),
@@ -33,6 +64,8 @@ module.exports = function (grunt) {
         grunt.loadNpmTasks('grunt-contrib-concat'),
         grunt.loadNpmTasks('grunt-contrib-imagemin'),
         grunt.loadNpmTasks('grunt-contrib-htmlmin'),
+        grunt.loadNpmTasks('grunt-contrib-cssmin'),
 
-        grunt.registerTask('build', ['uglify','less'])
+        grunt.registerTask('build', ['uglify', 'less', "concat_sourcemap"]);
+        grunt.registerTask("default", ["watch"]);
 }
