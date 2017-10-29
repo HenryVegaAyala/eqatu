@@ -39,6 +39,9 @@ $config = [
         'fixture' => [
             'class' => 'yii\faker\FixtureController',
         ],
+        'clean-vendors' => [
+            'class' => 'mbrowniebytes\yii2cleanvendors\CleanVendorsController',
+        ],
     ],
 
 ];
