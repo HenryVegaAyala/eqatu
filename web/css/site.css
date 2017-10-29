@@ -111,7 +111,7 @@ main {
     width: 100%;
     height: 100%;
     overflow: visible;
-    background: #fff url("../img/preloader.svg") no-repeat center center;
+    background: #fff url("../img/preloader.svg?=20170910") no-repeat center center;
 }
 
 .back-to-top {
