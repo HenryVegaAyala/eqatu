@@ -35,4 +35,4 @@
 
 </footer>
 
-<a href="#" class="back-to-top"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i></a>
+<a href="" class="back-to-top"><i class="fa fa-chevron-up fa-lg" aria-hidden="true"></i></a>

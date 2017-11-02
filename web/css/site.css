@@ -42,7 +42,7 @@ main {
 }
 
 .title-eqatu {
-    background-color: #FFBC49;
+    background-color: #ffffff;
 }
 
 .footer-color-A {
@@ -78,7 +78,7 @@ main {
 .parallax-container {
     position: relative;
     overflow: hidden;
-    height: 640px;
+    height: 440px;
 }
 
 .parallax-container .parallax {
@@ -121,7 +121,7 @@ main {
     padding: 6px 12px 9px 12px;
     font-size: 20px;
     border-radius: 0px;
-    right: 15px;
+    right: 7px;
     bottom: 4px;
     transition: background 0.5s;
 }

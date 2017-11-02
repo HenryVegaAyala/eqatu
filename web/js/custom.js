@@ -21,6 +21,28 @@ jQuery(document).ready(function ($) {
 		speed: 3000
 	});
 
+	$(document).ready(function(){
+		$(".materialboxed").materialbox();
+	});
+
+	$(document).ready(function(){
+		$(".slider").slider({
+			full_width: true,
+			indicators:false,
+			height:400,
+			interval:1000,
+			autoplay:false
+		});
+	});
+
+	jQuery("#id-mobile").on("click", function () {
+		$("#mobile-demo").hide();
+	});
+
+	jQuery("#id-mobile-show").on("click", function () {
+		$("#mobile-demo").show();
+	});
+
 	// Smoth scroll on page hash links
 	$("a[href*=\"#\"]:not([href=\"#\"])").on("click", function () {
 		if (location.pathname.replace(/^\//, "") == this.pathname.replace(/^\//, "") && location.hostname == this.hostname) {

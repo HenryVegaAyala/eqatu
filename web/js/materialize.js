@@ -5247,7 +5247,7 @@ if (Vel) {
 
         // dynamically add indicators
         if (options.indicators) {
-          $indicators = $('<ul class="indicators"></ul>');
+            $indicators = $('<ul class="indicators" id="id-slider"></ul>');
           $slides.each(function (index) {
             var $indicator = $('<li class="indicator-item"></li>');
 
