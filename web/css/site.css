@@ -81,6 +81,10 @@ main {
     height: 636px;
 }
 
+.slide-size{
+    height: 636px
+}
+
 .parallax-container .parallax {
     position: absolute;
     top: 0;
