@@ -78,7 +78,7 @@ main {
 .parallax-container {
     position: relative;
     overflow: hidden;
-    height: 440px;
+    height: 400px;
 }
 
 .parallax-container .parallax {
@@ -101,6 +101,12 @@ main {
     transform: translate3d(0, 0, 0);
     -webkit-transform: translateX(-50%);
     transform: translateX(-50%);
+}
+
+.logo {
+    height: 64px;
+    width: 209px;
+    padding-top: 1px
 }
 
 #preloader {
@@ -168,5 +174,10 @@ main {
     .header-2 {
         font-size: 19px;
         margin-bottom: 40px;
+    }
+
+    .logo {
+        height: 55px;
+        width: 175px;
     }
 }

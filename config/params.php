@@ -1,6 +1,6 @@
 <?php
 
-Yii::setAlias('@LogoEqatu', 'img/eqatu_60.png');
+Yii::setAlias('@LogoEqatu', 'img/eqatu.png');
 
 return [
     'adminEmail' => 'admin@example.com',

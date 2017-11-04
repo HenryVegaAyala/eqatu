@@ -58,7 +58,7 @@ $config = [
             //        'css' => [],
             //    ],
             //],
-            'linkAssets' => true,
+            'linkAssets' => false,
             'appendTimestamp' => true,
             'converter' => [
                 'class' => 'yii\web\AssetConverter',
