@@ -13972,8 +13972,8 @@ jQuery(document).ready(function ($) {
 		$(".slider").slider({
 			full_width: true,
 			indicators:false,
-			height:400,
-			interval:1000,
+			height:636,
+			interval:2000,
 			autoplay:false
 		});
 	});

@@ -7,8 +7,8 @@ $this->title = 'Eqatu | Inicio ';
 <div id="preloader"></div>
 
 <div class="parallax-container">
-    <div class="slider">
-        <ul class="slides">
+    <div class="slider" style="height: 636px">
+        <ul class="slides" style="height: 636px">
             <li>
                 <!--<img src="https://lorempixel.com/580/250/nature/1"> <!-- random image -->-->
                 <div class="caption center-align">
@@ -48,16 +48,17 @@ $this->title = 'Eqatu | Inicio ';
         <div class="row center">
             <div class="col s12 m6 l3">
                 <div class="icon-style">
-                    <i class="fa fa-address-card-o fa-5x"></i>
+                    <i class="fa fa-address-card-o fa-5x fa-border"></i>
                 </div>
                 <div class="text-pasos">
                     <a class="numer-bold">1.</a>
-                    <a class="check-bold" href="#contact">REGÍSTRATE</a> y completa la solicitud para promocionar tu producto.
+                    <a class="check-bold" href="#contact">REGÍSTRATE</a> y completa la solicitud para promocionar tu
+                    producto.
                 </div>
             </div>
             <div class="col s12 m6 l3">
                 <div class="icon-style">
-                    <i class="fa fa-phone-square fa-5x"></i>
+                    <i class="fa fa-phone-square fa-5x fa-border"></i>
                 </div>
                 <div class="text-pasos">
                     <a class="numer-bold">2.</a>
@@ -66,7 +67,7 @@ $this->title = 'Eqatu | Inicio ';
             </div>
             <div class="col s12 m6 l3">
                 <div class="icon-style">
-                    <i class="fa fa-desktop fa-5x"></i>
+                    <i class="fa fa-desktop fa-5x fa-border"></i>
                 </div>
                 <div class="text-pasos">
                     <a class="numer-bold">3.</a>
@@ -77,7 +78,7 @@ $this->title = 'Eqatu | Inicio ';
 
             <div class="col s12 m6 l3">
                 <div class="icon-style">
-                    <i class="fa fa fa-envelope fa-5x"></i>
+                    <i class="fa fa fa-envelope fa-5x fa-border"></i>
                 </div>
                 <div class="text-pasos">
                     <a class="numer-bold">4.</a>
