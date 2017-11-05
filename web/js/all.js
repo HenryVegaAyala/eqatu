@@ -13973,7 +13973,7 @@ jQuery(document).ready(function ($) {
 			full_width: true,
 			indicators:false,
 			height:636,
-			interval:2000,
+			interval:2500,
 			autoplay:false
 		});
 	});

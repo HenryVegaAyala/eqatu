@@ -2,38 +2,13 @@
 
 /* @var $this yii\web\View */
 
-$this->title = 'Eqatu | Inicio ';
+$this->title = 'Eqatu';
 ?>
 <div id="preloader"></div>
 
 <div class="parallax-container">
     <div class="slider slide-size">
-        <ul class="slides slide-size">
-            <li>
-                <div class="caption center-align">
-                    <h3>This is our big Tagline!</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
-            </li>
-            <li>
-                <div class="caption left-align">
-                    <h3>Left Aligned Caption</h3>
-                    <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>
-                </div>
-            </li>
-            <!--<li>-->
-            <!--    <div class="caption right-align">-->
-            <!--        <h3>Right Aligned Caption</h3>-->
-            <!--        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>-->
-            <!--    </div>-->
-            <!--</li>-->
-            <!--<li>-->
-            <!--    <div class="caption center-align">-->
-            <!--        <h3>This is our big Tagline!</h3>-->
-            <!--        <h5 class="light grey-text text-lighten-3">Here's our small slogan.</h5>-->
-            <!--    </div>-->
-            <!--</li>-->
-        </ul>
+
     </div>
 </div>
 
@@ -107,7 +82,8 @@ $this->title = 'Eqatu | Inicio ';
 <section id="contact">
     <div class="section white">
         <div class="row">
-            <h2 class="center header-1">Contáctenos</h2>
+            <h2 class="center header-1">CONTÁCTENOS</h2>
+            <div class="center header-2">Registrate para ponernos en contacto contigo.</div>
             <div class="row center">
                 <form class="col s12">
                     <div class="row container">
